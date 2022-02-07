@@ -1,0 +1,7 @@
+freq <- c(0.6, 0.3, 0.4, 0.4, 0.2, 0.6, 0.3, 0.4, 0.9, 0.2) 
+BP <- c(103, 87, 32, 42, 59, 109, 78, 205, 135, 176) 
+First <- c(1, 1, 1, 1, 0, 0, 0, 0, 1, 1) 
+Second <- c(0, 0, 1, 1, 0, 0, 1, 1, 1, 1) 
+FinalDecision <- c("Low", "High", "Low", "High", "Low", "High", "Low", "High", "High", "High") 
+boxplot(BP ~ FinalDecision, main="Distribution of Blood Pressure to Need of Immediate Care", xlab="Need of Immediate Care", ylab="Blood Pressure") 
+hist(BP, main="Histogram of Blood Pressures", xlab="Blood Pressure", ylab="Frequency")
