@@ -1,0 +1,11 @@
+---
+title: "Module 12"
+author: "Affiong Akpaninyang"
+date: "4/10/2022"
+output: html_document
+---
+
+```{r}
+fruitohms <- read.csv("~/Downloads/fruitohms.csv")
+summary(fruitohms)
+```
